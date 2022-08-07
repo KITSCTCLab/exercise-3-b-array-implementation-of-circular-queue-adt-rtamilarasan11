@@ -45,7 +45,7 @@ operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
 data = []
-for item in input().split(',');
+for item in input().split(','):
     item = item.strip()
     if item == '-':
         data.append([])
